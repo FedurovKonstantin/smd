@@ -1,0 +1,11 @@
+targets:
+  $default:
+    builders:
+      json_serializable:
+        generate_for:
+          - lib/models/**
+        options:
+          field_rename: screamingSnake
+      diagnosticable_generator|diagnosticable_builder:
+        generate_for:
+          - lib/**

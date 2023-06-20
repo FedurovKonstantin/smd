@@ -1,0 +1,29 @@
+name: fresh_tile
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0-271.4.beta <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  json_annotation:
+  diagnosticable_annotation:
+    path: packages/diagnosticable_annotation
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  json_serializable:
+  build_runner:
+  
+  diagnosticable_generator:
+    path: packages/diagnosticable_generator
+
+
+flutter:
+  uses-material-design: true

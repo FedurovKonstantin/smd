@@ -1,0 +1,20 @@
+name: diagnosticable_generator
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=2.18.0-271.4.beta <3.0.0'
+
+
+dependencies:
+  build:
+  source_gen:
+
+  diagnosticable_annotation:
+    path: ../diagnosticable_annotation
+  code_builder:
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
